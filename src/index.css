@@ -11,3 +11,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.user-view {
+  background: #00838f;
+  height: 150px;
+}
+
+.bkg-img {
+    width: 300px;
+}
+
+.container {
+  margin-top: 0px;
+  color: rgb(22, 22, 22);
+  
+}
+
+.nav-menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form-li {
+  margin-top: 0px;
+  height: 400px;
+}

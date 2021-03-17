@@ -1,10 +1,12 @@
-import React from 'react';
+import React from 'react'
+import EntryForm from './entryForm'
+import WordShuffle from './wordShuffle'
 
 const Home = () => {
   return (
-    <div className="container">
-      <h2 className="center">This is the Homepage</h2>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti quae nemo repellendus obcaecati, hic aperiam iusto, quo explicabo mollitia officia maxime libero nobis, impedit unde veritatis! Nobis fuga fugit eum.</p>
+    <div className="container">     
+      <WordShuffle/>
+      <EntryForm />
     </div>
   )
 }
