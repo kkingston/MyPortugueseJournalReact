@@ -12,11 +12,11 @@ const WordShuffle = () => {
 
   async function requestWords() {
     const resp = await fetch(`http://localhost:3001/api/v1/words`);
-    console.log(resp)
+    console.log('resp==>', resp)
     const words = await resp.json();
+    console.log('words==>', words)
     setWords(words)
     randomWord(words)
-    console.log(randomWord(words))
   }
 
   const randomWord = () => {

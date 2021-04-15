@@ -11,7 +11,6 @@ import { getCurrentUser } from './actions/currentUser.js'
 //import currentUser from './reducers/currentUser';
 //import loginForm from './reducers/loginForm';
 
-
 class App extends React.Component {
 
   componentDidMount() {
